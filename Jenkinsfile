@@ -14,7 +14,7 @@ node(NODE_LABEL){
 
     stage "Deploy"
     withEnv(["NODE_PORT=3334"]){
-        sh "docker-compose up"
+        sh "docker-compose up -d"
     }
 
     //sh 'pm2 start bin/www'
