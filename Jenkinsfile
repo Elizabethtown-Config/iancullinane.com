@@ -14,6 +14,8 @@ node(NODE_LABEL){
 
     stage "Deploy"
     withEnv(["NODE_PORT=3334"]){
+        sh "docker-compose rm -f"
+        sh "docker-compose pull"
         sh "docker-compose up -d"
     }
 

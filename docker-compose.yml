@@ -1,4 +1,6 @@
 iancullinane.com:
   image: eignhpants/iancullinane.com:stable
+  ports:
+    - 3334:3334
   expose:
     - 3334
