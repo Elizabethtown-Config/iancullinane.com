@@ -1,0 +1,4 @@
+iancullinane.com:
+  image: eignhpants/iancullinane.com
+  expose:
+    - 3334
