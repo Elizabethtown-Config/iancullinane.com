@@ -1,4 +1,4 @@
 iancullinane.com:
-  image: eignhpants/iancullinane.com
+  image: eignhpants/iancullinane.com:stable
   expose:
     - 3334
