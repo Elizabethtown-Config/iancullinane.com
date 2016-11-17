@@ -4,3 +4,4 @@ iancullinane.com:
     - 3334:3334
   expose:
     - 3334
+  restart: always
