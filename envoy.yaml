@@ -1,7 +1,7 @@
 {"static_resources": {
   "listeners": [
     {
-      "address": { "socket_address": { "address": "127.0.0.1", "port_value": 7777 } },
+      "address": { "socket_address": { "address": "0.0.0.0", "port_value": 80 } },
       "filter_chains": {
         "filters": [
           {
@@ -15,7 +15,7 @@
               "route_config": {
                 "virtual_hosts": [
                   {
-                    "name": "blah",
+                    "name": "iancullinane.com",
                     "domains": "*",
                     "routes": [
                       {
@@ -31,7 +31,7 @@
       "type": "STRICT_DNS",
       "connect_timeout": "1s",
       "hosts": [
-        { "socket_address": { "address": "127.0.0.1", "port_value": 8000 } }
+        { "socket_address": { "address": "http://iancullinane.service.consul, "port_value": 3334 } }
       ]
     }
   ]
